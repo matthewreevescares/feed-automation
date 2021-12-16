@@ -1,0 +1,16 @@
+---
+configs:
+  env: false
+  password_length: 10
+
+  dev:
+    working_dir: "/home/matthew.reeves/ansible/private/dom/inventory.d/"
+    file_name: "feed-partner-credentials.yaml"
+    git_file_name: "/home/matthew.reeves/ansible/private/dom/inventory.d/feed-partner-credentials.yaml"
+    git_repo: "/home/matthew.reeves/ansible/private/dom/inventory.d/"
+
+  prod:
+    working_dir: "/ansible/private/dom/inventory.d/"
+    file_name: "feed-partner-credentials.yaml"
+    git_file_name: "/ansible/private/dom/inventory.d/feed-partner-credentials.yaml"
+    git_repo: "/ansible/private/dom/inventory.d/"
